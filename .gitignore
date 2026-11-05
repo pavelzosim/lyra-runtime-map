@@ -1,0 +1,47 @@
+# ==========================================
+# AESIR TECHNICAL TEST — LYRA STARTER GAME
+# Track authored work only
+# ==========================================
+
+# Ignore everything in project root
+/*
+
+# Git configuration and documentation
+!/.gitignore
+!/.gitattributes
+!/README.md
+
+# Our authored Unreal content
+!/Content/
+/Content/*
+!/Content/AesirMap/
+
+# Optional standalone plugin
+!/Plugins/
+/Plugins/*
+!/Plugins/AesirMap/
+
+# Optional Lyra Game Feature plugin
+!/Plugins/GameFeatures/
+/Plugins/GameFeatures/*
+!/Plugins/GameFeatures/AesirMap/
+
+# Optional custom source module
+!/Source/
+/Source/*
+!/Source/AesirMap/
+
+# Unreal generated files
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+
+# IDE and temporary files
+**/.vs/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.log
+*.tmp
