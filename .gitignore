@@ -15,6 +15,7 @@
 !/Content/
 /Content/*
 !/Content/AesirMap/
+!/Config/DefaultEngine.ini
 
 # Optional standalone plugin
 !/Plugins/
